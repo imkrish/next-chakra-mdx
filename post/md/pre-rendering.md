@@ -1,7 +1,3 @@
-import React from 'react'
-import { MDXProvider } from '../providers/MDXProvider'
-
-const mdx = `
 ---
 title: 'Two Forms of Pre-rendering'
 date: '2020-01-01'
@@ -16,8 +12,4 @@ Next.js has two forms of pre-rendering: **Static Generation** and **Server-side 
 
 Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
 
-`
-
-export default function Home() {
-  return <MDXProvider>{mdx}</MDXProvider>
-}
+<Demo />
